@@ -1,0 +1,71 @@
+{
+
+	
+	"name": "Solar System Map",
+	"description": "A map of the local solar sytem.",
+	
+	"tags": [
+		"dependency injection", "node.js"
+	],
+	
+	"groupId": "com.scottbyrns",
+	"artifactId": "SolarSystem",
+	"version": "1.0.0-SNAPSHOT",
+	
+	"packaging": "none",
+	
+	"url": "https://github.com/scottbyrns/Javascript-Dependency-Manager",
+	
+	"scm": {
+		"url": "https://github.com/scottbyrns/Javascript-Dependency-Manager",
+		"connection": "git@github.com:scottbyrns/Javascript-Dependency-Manager.git"
+	},
+	
+	"repositories": [
+		{
+			"name": "local",
+			"url": "http://localhost:3000/"
+		}
+	],
+	
+	"dependencies": [
+
+		{
+		    "groupId": "com.scottbyrns.widgets.events",
+		    "artifactId": "EventTrigger",
+		    "version": "1.0.0-RELEASE"
+		},
+		{
+		    "groupId": "com.scottbyrns",
+		    "artifactId": "MessageController",
+		    "version": "1.0.0-SNAPSHOT"
+		}
+
+	],
+	
+	"sources": [
+		"javascript/SateliteConstelation.js",
+		"javascript/thirdParty/satelite_tracking.js",
+		"javascript/widgets/radial-controller.js",
+		"javascript/widgets/solar-wind.js",
+		"javascript/widgets/solar-photos.js",
+		"javascript/widgets/planet-selector.js",
+		"javascript/widgets/solar-protons.js",
+		"javascript/thirdParty/justgage.js",
+		"javascript/thirdParty/raphael.js",
+		"javascript/widgets/solar-system-widget.js",
+		"javascript/widgets/focus-overview.js"
+	],
+	
+	"configuration": {
+		
+	},
+	
+	"build": {
+		
+	}
+	
+	
+	
+}
+
