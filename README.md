@@ -9,7 +9,11 @@ A real-time simulation of our living universe in WebGL
 This project depends on a running instance of Javascript-Dependency-Manager on port 3000 at localhost
 https://github.com/scottbyrns/Javascript-Dependency-Manager
 
-
+### NPM
+* request
+* cheerio
+* restify
+* mysql
 
 ## Running Project
 
